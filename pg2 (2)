@@ -1,0 +1,176 @@
+// let val = 20;
+// while(val <=200) {
+//     console.log(val);
+//     val +=30;
+// }
+
+
+// let x;
+// for(x=20;x<=200;x++) {
+//     console.log(x);
+//     x += 20;
+// }
+
+
+// let test = 10;
+// do { 
+//     console.log(test);
+//     test++;
+// } while(test <= 100)
+
+
+// for(let i = 0;i<11;i++) {
+//     if(i==10)
+//         break;
+//     console.log(i);
+// }
+
+// let animal = [ 'beer', 'dog', 'snake', 'lion'];
+// animal.pop('lion');
+// console.log(animal);
+
+// throw and acatch error see ask to your  friend
+
+// object program
+
+// let school = {
+//     name: "harsha",
+//     age: 21,
+//     palce : "dairy shimogga",
+   
+// }
+// console.log(school.name);
+// console.log(school.p);
+
+
+// class program
+
+
+// class vehicle {
+//     constructor(name,maker,engine) {
+//         this.name = name;
+//         this.maker = maker;
+//         this.engine = engine;
+    
+        
+//     }
+// }
+// let bike = new vehicle('hayabusa', 'suziki', '1234cc');
+// console.log(bike.name);
+
+
+
+// class house {
+//     constructor(Hall,bedroom,varanda) {
+//         this.Hall = Hall;
+//         this.bedroom = bedroom;
+//         this.varanda = varanda;
+//     }
+// }
+// let kanasu = new house('whitecolour','redcolour','blackcolour');
+// console.log(kanasu.Hall);
+// console.log(kanasu.bedroom);
+
+// class man {
+//     constructor(name,age,place,bikecolour) {
+//         this.name = name;
+//         this.age = age;
+//         this.place = place;
+//         this.bikecolour = bikecolour
+//     }
+// }
+// let boy = new man('harisha','34','hassan','red');
+// console.log(boy.name);
+// console.log(boy.bikecolour);
+
+//
+
+// const square = function (number) {
+//   return number * number;
+// };
+// const x = square(4);
+// console.log(x);
+
+// const addition = function (number) {
+//   return number + number;
+// };
+// const x = 10, y = 20;
+// console.log(x+y);
+
+// let add = (a,b) => a + b ;
+// console.log(add(3,2));
+
+// const great = (a ,b) => {
+//   if(a > b)
+//   return "a is greater";
+
+//   else 
+//   return "b is greater";
+//   }
+//   console.log(great(3,5));
+
+
+  // const great = (a , b) => {
+  //   if(a > b)
+  //  return " A is greater";
+  //  else 
+  //  return "B is greater";
+  // }
+  // console.log(great(3,5));
+
+  // Define a string variable 'str' 
+// let str = "Mind, Power, Soul";
+
+// // Use the replace() method to replace the substring
+// let part = str.replace("Power", "Space");
+
+// // Output the resulting string after replacement
+// console.log(part);
+
+// const Data = new set();
+
+// Data.add("mandy");
+// Data.add("noida");
+// Data.add("Gurgon");
+
+// Data.forEach(function (value) {
+//   console.log(value);
+// });
+
+// const date = new Date();
+// const formattedDate = new Intl.DateTimeFormat('en-US').format(date);  // Displays as month/day/year
+// console.log(formattedDate);
+
+// const date = new Data();
+// const formattedDate = new Intl.DateTimeFormat('en-Us').format(date);
+// console.log(formattedDate)
+
+// function twoSum(nums , target) {
+//   for(let i = 0; i < nums.length;i++) {
+//     for(let j = 1; j < nums.length; j++) {
+//       if(nums[i]+nums === target){
+//         return target
+//       }
+//     }
+//   }
+//   return[];
+// }
+// const nums = [2, 7, 11, 15];
+// const target =26;
+// console.log(twoSum(nums,target))
+
+function Palindrome() {
+  const str = "MALAYALAM";
+  const reverse = str.split().reverse().join();
+
+  if(str === reverse) {
+    console,log("palindrome");
+
+  } else {
+    console.log("not a palindrome");
+  }
+
+}
+
+
+
